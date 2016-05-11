@@ -32,6 +32,7 @@ ENV \
   ZS_DBPassword=zabbix \
   ZS_DBSocket=/tmp/mysql.sock \
   ZS_DBPort=3306 \
+  ZS_StartIPMIPollers=2 \
   ZS_StartPollers=5 \
   ZS_StartPollersUnreachable=1 \
   ZS_StartTrappers=5 \
